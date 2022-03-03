@@ -53,6 +53,7 @@ git checkout -b htmlbranch      (hem htmlbranch oluşturur hem içine girer.)
 git merge htmlbranch            (htmlbranch'deki değişiklikleri birleştirecektir.
                                 İstersek daha fazla branchi yan yana yazarak merge işlemine ekleyebiliriz.)
 git push                        (yapılan commitler uzak repoya yüklenir.)
+git push origin htmlbranch      (üzerinde çalıştığın branch'i git'e gönderir.(merge pull request))
 git clone https:link            (github'daki clone linki yada SSH linkiyle repoyu klonlar.)
 git remote -v                   (bağlı olunan repo adresini belirtir.)
 git fetch                       (uzak bağlantıdaki değişiklik kopyalanır ancak merge etmez yani yazmaz.)
