@@ -1,0 +1,17 @@
+Git Komutları
+****************************************************************************************************************
+git config --list (ayarlarla ilgili bilgileri liste halinde sıralar.)
+git config user.name (kullanıcı adını gösterir. Kısaca 'config' in ardından sorgulanan bilgiyi gösterir.)
+pwd (içinde olunan klasörü gösterir. Konsol komutları.)
+cd Desktop (belirtilen klasöre girer. Örn; masaüstü. Konsol komutları.)
+cd .. (bir üst klasöre döner. Konsol komutları.)
+rm text.txt (belirtilen dosyayı siler. Konsol komutları.)
+mv text.txt readme.txt ('text' isimli dosyanın adını 'readme' olarak değiştirdi. Konsol komutları.)
+git init (bulunulan klasöte boş bir Git repository kurar.)
+git status (projenin durumunu belirtir. yapılan değişiklikler eklenen commitler vs.)
+git add . (bulunulan klasördeki her şeyi gite takip ettirir. Staging area'ya yönlendirir.)
+git add index.html (adı geçen dosyayı gite takip ettirir. Staging area'ya yönlendirir.)
+git add -A (yapılan tüm değişiklikleri gite takip ettirir. Staging area'ya yönlendirir.)
+git commit -m 'yorum' (yapılan değişiklikler kayıt edilir, '' (tırnaklar) arasına yorum metni yazılır.)
+touch text.txt (touch komutu bir dosya oluşturmak için kullanılır. Örn: text.txt)
+code . (Git projesini Visual Studio Code'da  açıyor.)
